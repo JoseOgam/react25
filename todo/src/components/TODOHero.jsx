@@ -2,7 +2,7 @@ import React from "react";
 
 const TODOHero = ({ todo_completed, total_todos }) => {
   return (
-    <section>
+    <section className="todohero_section">
       <div>
         <p>Task Done</p>
         <p>Keep it up</p>

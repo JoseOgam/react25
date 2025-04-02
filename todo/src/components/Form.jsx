@@ -7,7 +7,7 @@ const Form = () => {
     event.target.reset();
   };
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit}>
       <label htmlFor="todo">
         {" "}
         <input
@@ -18,7 +18,7 @@ const Form = () => {
         />
       </label>
       <button>
-        <span>submit</span>
+        <span className="visually-hidden">submit</span>
         <svg>
           <path d="" />
         </svg>
